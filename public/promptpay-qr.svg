@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003d6b" />
+      <stop offset="100%" stop-color="#005ea6" />
+    </linearGradient>
+    <pattern id="qrPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#0f172a" />
+      <rect x="8" y="8" width="8" height="8" fill="#0f172a" />
+    </pattern>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="400" height="400" rx="24" fill="#ffffff" />
+
+  <!-- PromptPay Header Banner -->
+  <path d="M 0 24 Q 0 0 24 0 L 376 0 Q 400 0 400 24 L 400 80 L 0 80 Z" fill="url(#headerGrad)" />
+  <text x="200" y="48" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="2">PROMPTPAY</text>
+  <text x="200" y="68" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#93c5fd" text-anchor="middle">พร้อมเพย์ • ชมรมดนตรีสากล ม.ศิลปากร</text>
+
+  <!-- QR Frame Outer -->
+  <rect x="40" y="100" width="320" height="260" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" />
+
+  <!-- QR Position Detection Patterns (Top Left, Top Right, Bottom Left) -->
+  <!-- Top-Left Finder Pattern -->
+  <rect x="65" y="125" width="60" height="60" rx="8" fill="#0f172a" />
+  <rect x="75" y="135" width="40" height="40" rx="4" fill="#ffffff" />
+  <rect x="83" y="143" width="24" height="24" rx="2" fill="#0f172a" />
+
+  <!-- Top-Right Finder Pattern -->
+  <rect x="275" y="125" width="60" height="60" rx="8" fill="#0f172a" />
+  <rect x="285" y="135" width="40" height="40" rx="4" fill="#ffffff" />
+  <rect x="293" y="143" width="24" height="24" rx="2" fill="#0f172a" />
+
+  <!-- Bottom-Left Finder Pattern -->
+  <rect x="65" y="275" width="60" height="60" rx="8" fill="#0f172a" />
+  <rect x="75" y="285" width="40" height="40" rx="4" fill="#ffffff" />
+  <rect x="83" y="293" width="24" height="24" rx="2" fill="#0f172a" />
+
+  <!-- Simulated QR Data Matrix -->
+  <!-- Center elements -->
+  <rect x="145" y="125" width="10" height="20" fill="#0f172a" />
+  <rect x="175" y="125" width="30" height="10" fill="#0f172a" />
+  <rect x="225" y="125" width="20" height="20" fill="#0f172a" />
+
+  <rect x="145" y="160" width="40" height="10" fill="#0f172a" />
+  <rect x="205" y="150" width="15" height="25" fill="#0f172a" />
+  <rect x="240" y="165" width="15" height="15" fill="#0f172a" />
+
+  <!-- Middle block with Music Studio Icon -->
+  <circle cx="200" cy="230" r="32" fill="#003d6b" stroke="#ffffff" stroke-width="4" />
+  <path d="M 194 240 C 191 240 188 238 188 234 C 188 230 191 228 194 228 C 196 228 198 229 199 230 L 199 216 L 212 212 L 212 226 C 210 225 208 224 206 224 C 202 224 200 227 200 230 C 200 234 202 236 206 236 C 210 236 212 233 212 230 L 212 210 L 197 214 L 197 232 C 196 231 195 231 194 231 Z" fill="#38bdf8" />
+
+  <!-- Data pixels around -->
+  <rect x="145" y="275" width="20" height="20" fill="#0f172a" />
+  <rect x="185" y="285" width="15" height="15" fill="#0f172a" />
+  <rect x="220" y="275" width="25" height="10" fill="#0f172a" />
+  <rect x="260" y="280" width="10" height="20" fill="#0f172a" />
+  <rect x="290" y="275" width="25" height="25" fill="#0f172a" />
+
+  <rect x="275" y="210" width="20" height="10" fill="#0f172a" />
+  <rect x="310" y="225" width="15" height="25" fill="#0f172a" />
+  <rect x="145" y="210" width="10" height="30" fill="#0f172a" />
+  <rect x="80" y="215" width="30" height="10" fill="#0f172a" />
+
+  <text x="200" y="380" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1">SCAN WITH ANY BANKING APP</text>
+</svg>
